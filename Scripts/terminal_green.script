@@ -1,0 +1,13 @@
+//light ambient [r] [g] [b] [a]
+text "Setting up ambient light to green"
+
+map.redColor=0
+map.greenColor=0
+map.blueColor=0
+
+map.greenColor+=255
+
+light ambient $map.redColor $map.greenColor $map.blueColor $map.alphaColor
+
+
+map return
